@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.form-image {
+    position: relative;
+    right: 8em;
+    width: 50em;
+    height: 30em;
+}
+
+.form-section {
+    width: 32em;
+    height: 30em;
+}
+
+.detail-section {
+    width: 60em;
+    height: auto;
+}
+
+.blog-image {
+    height: 27em;
+}
+
+.blog-section {
+    background: rgb(93, 131, 136);
+    height: auto;
+    padding-bottom: 10em;
+    background: linear-gradient(90deg, rgba(93, 131, 136, 0.8212711109834558) 28%, rgba(30, 47, 79, 0.8100666291907388) 100%);
+    width: 65em;
+    margin-bottom: 20em;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    padding: 2em;
+}
+
+detail-card {
+    background-color: blue;
+    width: 800px;
+}
+
+
+.read-the-docs {
+    color: #888;
+}
